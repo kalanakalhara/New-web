@@ -9,7 +9,8 @@ export const useAppSettings = () => {
             return settings.value
         }
 
-        const data = await $fetch<AppSettings>('http://localhost/newapp/api/settings/')
+        const { apiBase } = useRuntimeConfig().public
+        const data = await $fetch<AppSettings>(`${apiBase}/settings/`)
         settings.value = data
         loaded.value = true
 

@@ -23,7 +23,21 @@ A multi-theme Nuxt 4 frontend for a gastro/restaurant platform. The active theme
 npm install
 ```
 
-### 2. Start the development server
+### 2. Configure environment
+
+Copy the example env file and set your values:
+
+```bash
+copy .env.example .env
+```
+
+Then open `.env` and adjust `NUXT_PUBLIC_API_BASE` to point at your Laravel backend.
+
+| Variable | Default | Description |
+|---|---|---|
+| `NUXT_PUBLIC_API_BASE` | `http://localhost/newapp/api` | Laravel API base URL (no trailing slash) |
+
+### 3. Start the development server
 
 ```bash
 npm run dev
