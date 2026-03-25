@@ -1,1 +1,12 @@
-site_name: My Docs
+site_name: New-web Developer Docs
+site_description: Developer documentation for the New-web multi-theme Nuxt frontend
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Core Files: core-files.md
+  - Types Reference: types.md
+  - Themes:
+    - Overview: themes.md
+    - Creating a New Theme: creating-a-theme.md
+  - Shared Components: components.md
