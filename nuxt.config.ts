@@ -6,4 +6,11 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
 
   css: ['~/assets/css/main.css'],
+
+  runtimeConfig: {
+    public: {
+      // Overridden by NUXT_PUBLIC_API_BASE in .env
+      apiBase: 'http://localhost/newapp/api'
+    }
+  }
 })
