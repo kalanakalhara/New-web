@@ -1,6 +1,6 @@
-# New-web Developer Documentation
+# GastroMaster-Web Developer Documentation
 
-**New-web** is a multi-theme Nuxt 4 frontend for a gastro/restaurant platform. It connects to a Laravel API backend to fetch app settings (including which theme is active) and renders the appropriate UI based on that theme.
+**GastroMaster-Web** is a multi-theme Nuxt 4 frontend for a gastro/restaurant platform. It connects to a Laravel API backend to fetch app settings (including which theme is active) and renders the appropriate UI based on that theme.
 
 ---
 
